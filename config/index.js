@@ -15,14 +15,14 @@ export const config = {
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * [ozMzH6AzQ9BN_5alSDoPnKDs_AYY,ozMzH6DBZ8w_kxLTVGUuMk7Hom78
+   * [
    *  {
    *    // 想要发送的人的名字
    *    name: "郝金蕾",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "ozMzH6DBZ8w_kxLTVGUuMk7Hom78",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "Sfvd3-NwBO5v7yXm5-_xrimZm6mYkMxPXOLw5zAUxoA",
+   *    useTemplateId: "0CGG6A_H35drqjRUZfioi7z2CwCxwlnb2blJLYPmm8I",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://s.weibo.com/top/summary"
    *   }, 
@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ozMzH6DBZ8w_kxLTVGUuMk7Hom78",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Sfvd3-NwBO5v7yXm5-_xrimZm6mYkMxPXOLw5zAUxoA",
+      useTemplateId: "0CGG6A_H35drqjRUZfioi7z2CwCxwlnb2blJLYPmm8I",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -46,7 +46,7 @@ export const config = {
     {
       name: "乖乖", 
       id: "ozMzH6DBZ8w_kxLTVGUuMk7Hom78",
-      useTemplateId: "Sfvd3-NwBO5v7yXm5-_xrimZm6mYkMxPXOLw5zAUxoA",
+      useTemplateId: "0CGG6A_H35drqjRUZfioi7z2CwCxwlnb2blJLYPmm8I",
       province: "山东",
       city: "寿光",
       openUrl: "https://s.weibo.com/top/summary"
@@ -54,7 +54,7 @@ export const config = {
     {
       name: "岳可豪",
       id: "ozMzH6AzQ9BN_5alSDoPnKDs_AYY",
-      useTemplateId: "Sfvd3-NwBO5v7yXm5-_xrimZm6mYkMxPXOLw5zAUxoA",
+      useTemplateId: "0CGG6A_H35drqjRUZfioi7z2CwCxwlnb2blJLYPmm8I",
       province: "河南",
       city: "巩义",
       openUrl: "https://s.weibo.com/top/summary"
@@ -74,7 +74,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "	Sfvd3-NwBO5v7yXm5-_xrimZm6mYkMxPXOLw5zAUxoA",
+  CALLBACK_TEMPLATE_ID: "0CGG6A_H35drqjRUZfioi7z2CwCxwlnb2blJLYPmm8I",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [ozMzH6AzQ9BN_5alSDoPnKDs_AYY
